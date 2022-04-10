@@ -7,8 +7,7 @@ I started the task by searching more information abput BlackJax and Bayesian Lin
 Here's what I came across:
    
    # What is BlackJax?
-    It is a sampler for JAX that works both on CPU AND GPU. BlackJAX is an MCMC sampling library based on JAX. 
-    
+   It is a sampler for JAX that works both on CPU AND GPU. BlackJAX is an MCMC sampling library based on JAX. 
     BlackJAX provides well-tested and ready to use sampling algorithms: 
     It is also explicitly designed to be modular: 
     it is easy for advanced users to mix-and-match different metrics, integrators, trajectory integrations, etc.
@@ -16,8 +15,7 @@ Here's what I came across:
     For more on BlackJax sampling : https://blackjax-devs.github.io/blackjax/examples/Introduction.html
     
    # What is Bayesian Linear Regression?
-    
-    In statistics, Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference. When the regression model has errors that have a normal distribution, and if a particular form of prior distribution is assumed, explicit results are available for the posterior probability distributions of the model's parameters.
+  In statistics, Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference. When the regression model has errors that have a normal distribution, and if a particular form of prior distribution is assumed, explicit results are available for the posterior probability distributions of the model's parameters.
 
 The aim of Bayesian Linear Regression is not to find the single “best” value of the model parameters, but rather to determine the posterior distribution for the model parameters. Not only is the response generated from a probability distribution, but the model parameters are assumed to come from a distribution as well. The posterior probability of the model parameters is conditional upon the training inputs and outputs:
 
@@ -28,8 +26,6 @@ The result of performing Bayesian Linear Regression is a distribution of possibl
 As the amount of data points increases, the likelihood washes out the prior, and in the case of infinite data, the outputs for the parameters converge to the values obtained from OLS.
 
 
-
-![image](https://user-images.githubusercontent.com/73945217/162632998-fb0e7b22-2d53-4962-aed6-e37561840647.png)
  
     
     
