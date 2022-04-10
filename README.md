@@ -28,6 +28,8 @@ The result of performing Bayesian Linear Regression is a distribution of possibl
 As the amount of data points increases, the likelihood washes out the prior, and in the case of infinite data, the outputs for the parameters converge to the values obtained from OLS.
 
 
+
+![image](https://user-images.githubusercontent.com/73945217/162632998-fb0e7b22-2d53-4962-aed6-e37561840647.png)
  
     
     
