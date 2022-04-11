@@ -7,12 +7,15 @@ I started the task by searching more information abput BlackJax and Bayesian Lin
 Here's what I came across:
    
    # What is BlackJax?
-   It is a sampler for JAX that works both on CPU AND GPU. BlackJAX is an MCMC sampling library based on JAX. 
+   It is a sampler for JAX that works both on CPU AND GPU. BlackJAX is an MCMC sampling library based on JAX.
+ BlackJAX bridges the gap between "one liner" frameworks and modular, customizable libraries.
+Users can import the library and interact with robust, well-tested and performant samplers with a few lines of code. These samplers are aimed at PPL developers, or people who have a logpdf and just need a sampler that works.
+   
     BlackJAX provides well-tested and ready to use sampling algorithms: 
     It is also explicitly designed to be modular: 
     it is easy for advanced users to mix-and-match different metrics, integrators, trajectory integrations, etc.
     
-    For more on BlackJax sampling : https://blackjax-devs.github.io/blackjax/examples/Introduction.html
+   For more on BlackJax sampling : https://blackjax-devs.github.io/blackjax/examples/Introduction.html
     
    # What is Bayesian Linear Regression?
   In statistics, Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference. When the regression model has errors that have a normal distribution, and if a particular form of prior distribution is assumed, explicit results are available for the posterior probability distributions of the model's parameters.
@@ -31,10 +34,18 @@ https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60
 
 The basic step of the implementation of Bayesian Linear Regression is to import the essential amd required libraries:
 
-      pip install blackjax
-      
-      import jax
-      
+pip install blackjax
+       
+import jax
+import jax.numpy as jnp
+import jax.random as random
+import matplotlib.pyplot as plt
+import arviz as az
+import blackjax
+import numpy as np
+import pymc3 as pm 
+
+
 
 
 
