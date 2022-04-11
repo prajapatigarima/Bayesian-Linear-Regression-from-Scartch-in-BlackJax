@@ -34,16 +34,23 @@ https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60
 
 The basic step of the implementation of Bayesian Linear Regression is to import the essential amd required libraries:
 
-pip install blackjax
+                        pip install blackjax
        
-import jax
-import jax.numpy as jnp
-import jax.random as random
-import matplotlib.pyplot as plt
-import arviz as az
-import blackjax
-import numpy as np
-import pymc3 as pm 
+                               import jax
+                               
+                               import jax.numpy as jnp
+                               
+                               import jax.random as random
+                             
+                               import matplotlib.pyplot as plt
+                               
+                               import arviz as az
+                               
+                               import blackjax
+
+                               import numpy as np
+
+                               import pymc3 as pm 
 
 
 
