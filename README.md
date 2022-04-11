@@ -29,7 +29,12 @@ Reference Link: https://en.wikipedia.org/wiki/Bayesian_linear_regression#:~:text
 
 https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7
 
-The basic step of the implementation of Bayesian Linear Regression is to import the essential amd required libraries.
+The basic step of the implementation of Bayesian Linear Regression is to import the essential amd required libraries:
+
+      pip install blackjax
+      
+      import jax
+      
 
 
 
