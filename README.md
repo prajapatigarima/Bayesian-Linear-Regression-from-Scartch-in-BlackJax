@@ -25,6 +25,13 @@ If we have domain knowledge, or a guess for what the model parameters should be,
 The result of performing Bayesian Linear Regression is a distribution of possible model parameters based on the data and the prior. This allows us to quantify our uncertainty about the model: if we have fewer data points, the posterior distribution will be more spread out.
 As the amount of data points increases, the likelihood washes out the prior, and in the case of infinite data, the outputs for the parameters converge to the values obtained from OLS.
 
+Reference Link: https://en.wikipedia.org/wiki/Bayesian_linear_regression#:~:text=In%20statistics%2C%20Bayesian%20linear%20regression,the%20context%20of%20Bayesian%20inference.
+
+https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7
+
+The basic step of the implementation of Bayesian Linear Regression is to import the essential amd required libraries.
+
+
 
  
     
