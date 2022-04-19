@@ -1,4 +1,4 @@
-# Bayesian-Linear-Regression-from-Scartch-in-BlackJax
+# Bayesian-Linear-Regression-from-Scratch-in-BlackJax
 
 We have to make Bayesian Linear Regression from scartch using BlackJax sampling method.
 
